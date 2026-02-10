@@ -6,7 +6,7 @@ import '../models/chat_message.dart';
 import 'package:image_picker/image_picker.dart';
 
 class GeminiService {
-  static const String apiKey = 'AIzaSyB8_mjAPzBD5zWdJEnfP5aqkid0duLNorM';
+  static const String apiKey = '';
   static const String apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
   static List<Map<String, dynamic>> _formatMessages(List<ChatMessage> messages) {
     return messages.map((msg) {
